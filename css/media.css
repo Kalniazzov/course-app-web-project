@@ -1,0 +1,130 @@
+@media (max-width: 1700px) {
+  .header_content .content_img {
+    position: absolute;
+    right: 11%;
+    bottom: 0;
+  }
+  .about_img {
+    position: absolute;
+    right: 11%;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header_content .content_img {
+    position: absolute;
+    right: 2%;
+    bottom: 0;
+  }
+  .about_img {
+    position: absolute;
+    right: 2%;
+    bottom: 0;
+  }
+}
+@media (max-width: 1050px) {
+  .about_img {
+    z-index: 20;
+  }
+  .about-content .text-2 {
+    z-index: 30;
+  }
+}
+@media (max-width: 1000px) {
+  #menu {
+    display: none;
+  }
+  #nav_btn {
+    display: block;
+  }
+  #menu2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #434343;
+    width: 500px;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 30px 30px 30px;
+    z-index: 122;
+  }
+  #close {
+    padding-top: 45px;
+    padding-right: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+  }
+  .menu_link {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .icon_open {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 70px;
+    margin-right: 30px;
+    z-index: 1;
+  }
+  /*FORM PAGE MEDIA*/
+  .form_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 60px;
+  }
+}
+@media (max-width: 750px) {
+  #menu2 {
+    width: 400px;
+  }
+  .social_card .link {
+    gap: 75px;
+  }
+}
+@media (max-width: 740px) {
+  .social_card .link {
+    gap: 60px;
+  }
+}
+@media (max-width: 655px) {
+  iframe {
+    width: 430px;
+    height: 307px;
+  }
+}
+@media (max-width: 595px) {
+  .social_card .link {
+    gap: 30px;
+  }
+  .success_items .success_item {
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+  }
+  .about-content .text-2 {
+    z-index: 20;
+  }
+
+  .about_img {
+    display: none;
+  }
+  .about_img img {
+    z-index: 10;
+  }
+}
+@media (max-width: 500px) {
+  iframe {
+    width: 364px;
+    height: 260px;
+  }
+}

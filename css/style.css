@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+ul,
+li,
+ol,
+dl {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  background-image: url(../img/bg/bg1.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 930px;
+  padding: 51px 0;
+}
+
+.container {
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header_nav {
+  margin-bottom: 323px;
+}
+.header_nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  color: white;
+  letter-spacing: 1px;
+}
+.header_nav .logo h1 {
+  font-size: 27px;
+}
+.header_nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header_nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 81px;
+}
+.header_nav .menu a {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.icon_open {
+  display: none;
+}
+
+.nav_btn {
+  display: none;
+}
+
+.header_content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+.header_content .title {
+  font-size: 36px;
+  line-height: 159.6%;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.header_content .btn {
+  padding: 17px 84px;
+  font-size: 24px;
+  background-color: #0022c4;
+  border-radius: 7px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.main .sabaqtar-page {
+  background-image: url(../img/bg/bg2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 930px;
+  padding: 51px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .tolyqraq-page {
+  background-image: url(../img/bg/bg3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 930px;
+  padding: 51px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sabaqtar-content .title-2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 56px;
+}
+.sabaqtar-content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 21px;
+}
+.sabaqtar-content .card {
+  max-width: 541px;
+  height: 127px;
+  background-image: url(../img/bg/bg4.jpg);
+  background-position: center center;
+  background-size: cover;
+  font-size: 36px;
+  color: black;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sabaqtar-content .card a {
+  padding: 35px 203px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  color: black;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.tolyqraq-content .title-3 {
+  font-size: 28px;
+}
+.tolyqraq-content .title-4 {
+  font-size: 36px;
+  margin-bottom: 72px;
+}
+
+.social_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 19px;
+}
+.social_card .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 58px;
+}
+.social_card .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 75px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 18px;
+}
+
+.footer {
+  padding: 44px 0;
+  background-color: #0022c4;
+  min-height: 169px;
+  text-align: center;
+}
+.footer h1 {
+  font-size: 32px;
+  color: #d6d6d6;
+}
